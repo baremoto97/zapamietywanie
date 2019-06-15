@@ -1,0 +1,96 @@
+table.game_table {
+	border-collapse: collapse;
+}
+
+table.game_table, td, th {
+	border: 1px solid black;
+}
+
+#game_table{
+	display: block;
+	float: left;
+	padding-left: 135px;
+	padding-top: 20px;
+}
+img {
+	width: 150px;
+	height: 150px;
+}
+
+.hidden {
+	opacity: 0;
+}
+
+.selected {
+	opacity: 0.5;
+}
+
+.scored {
+	opacity: 1.0;
+}
+
+body{
+	background-color: #1f1f1f;
+}
+#container {
+	width: 870px;
+	margin: 0 auto;
+	background-color: #333;
+	height: auto;
+}
+#menu {
+	display: block;
+	width: 870px;
+	background-color: #827a7a;
+	margin-bottom: 40px;
+}
+#score {
+	display: block;
+	float: left;
+	width: 210px;
+	background-color: #827a7a;
+	margin: 10px 20px 10px 20px;
+	text-align: center;
+	padding: 20px 20px 20px 20px;
+}
+#moves {
+	display: block;
+	float: left;
+	width: 210px;
+	background-color: #827a7a;
+	margin: 10px 20px 10px 20px;
+	text-align: center;
+	padding: 20px 20px 20px 20px;
+}
+#result {
+	display: block;
+	float: left;
+	width: 210px;
+	background-color: #827a7a;
+	margin: 10px 20px 10px 20px;
+	text-align: center;
+	padding: 20px 20px 20px 20px;
+}
+
+.leg{
+	display: block;
+	float: left;
+	width: 210px;
+	background-color: #827a7a;
+	margin: 10px 20px 10px 20px;
+	text-align: center;
+	padding: 20px 20px 20px 20px;
+}
+
+.batt{
+	display: block;
+	float: left;
+	background-color: #827a7a;
+	margin: 10px 325px 10px 325px;
+	text-align: center;
+}
+
+#newGame{
+	width: 210px;
+	padding: 20px 20px 20px 20px;
+}
